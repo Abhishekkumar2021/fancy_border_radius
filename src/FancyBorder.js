@@ -123,7 +123,7 @@ class FancyBorder extends Component {
 					onChange={this.handleChangeWidth}
 					className='width input'
 					placeholder='Enter width...'
-					defaultValue={380}
+					defaultValue={300}
 				/>
 				<input
 					type='number'
@@ -133,7 +133,7 @@ class FancyBorder extends Component {
 					className='height input'
 					onChange={this.handleChangeHeight}
 					placeholder='Enter height...'
-					defaultValue={380}
+					defaultValue={300}
 				/>
 
 				<button onClick={this.handleClick} disabled={this.isCopied}>
