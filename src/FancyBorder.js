@@ -5,8 +5,8 @@ class FancyBorder extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			width: 400,
-			height: 400,
+			width: 300,
+			height: 300,
 			d1: 50,
 			d2: 50,
 			d3: 50,
